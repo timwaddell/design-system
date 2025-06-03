@@ -1,0 +1,30 @@
+{
+  "name": "tims-design-system",
+  "version": "1.0.0",
+  "description": "A demo design system built with TypeScript",
+  "keywords": [
+    "typescript"
+  ],
+  "homepage": "https://github.com/timwaddell/design-system",
+  "bugs": {
+    "url": "https://github.com/timwaddell/design-system/issues"
+  },
+  "author": "Tim Waddell <timwaddell@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timwaddell/design-system"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  }
+}

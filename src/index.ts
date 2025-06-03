@@ -1,1 +1,1 @@
-export { add } from './utils.js';
+export { add, spacing } from './utils.js';
